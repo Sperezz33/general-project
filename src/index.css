@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, "Segoe UI", Roboto, sans-serif;
+  background: #f4f4f7;
+  color: #1d1d24;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  background: #fff;
+  border: 1px solid #e2e2e8;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+section h2 {
+  margin-top: 0;
+  font-size: 1.15rem;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #3b5bdb;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2f4ac0;
+}
+
+input {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border: 1px solid #c8c8d0;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.botones {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.personaje img {
+  width: 160px;
+  border-radius: 12px;
+}
+
+.personaje h3 {
+  margin: 8px 0 4px;
+}
+
+.personaje p {
+  margin: 2px 0;
+}
